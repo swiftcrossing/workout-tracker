@@ -94,10 +94,8 @@
 		30628AEF2A80DC1E00777783 /* WorkoutTracker */ = {
 			isa = PBXGroup;
 			children = (
-				30628AF02A80DC1E00777783 /* WorkoutTrackerApp.swift */,
-				30628AF22A80DC1E00777783 /* ContentView.swift */,
-				30628AF42A80DC2100777783 /* Assets.xcassets */,
-				30628AF62A80DC2100777783 /* Preview Content */,
+				30628B1A2A81386B00777783 /* Assets */,
+				30628B1B2A81387E00777783 /* Sources */,
 			);
 			path = WorkoutTracker;
 			sourceTree = "<group>";
@@ -125,6 +123,40 @@
 				30628B0D2A80DC2100777783 /* WorkoutTrackerUITestsLaunchTests.swift */,
 			);
 			path = WorkoutTrackerUITests;
+			sourceTree = "<group>";
+		};
+		30628B1A2A81386B00777783 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				30628AF42A80DC2100777783 /* Assets.xcassets */,
+				30628AF62A80DC2100777783 /* Preview Content */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		30628B1B2A81387E00777783 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				30628B1C2A81389200777783 /* App */,
+				30628B1D2A8138A100777783 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		30628B1C2A81389200777783 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				30628AF02A80DC1E00777783 /* WorkoutTrackerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		30628B1D2A8138A100777783 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30628AF22A80DC1E00777783 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,7 +448,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorkoutTracker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WorkoutTracker/Assets/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,7 +476,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorkoutTracker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WorkoutTracker/Assets/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
